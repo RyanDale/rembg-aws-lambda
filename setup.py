@@ -13,13 +13,13 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 requires = [
     "numpy~=1.26.3",
-    "onnxruntime~=1.13.1",
+    "onnxruntime~=1.15.0",
     "opencv-python-headless~=4.6.0.66",
     "pillow~=10.2.0",
 ]
 
 extras_require = {
-    "gpu": ["onnxruntime-gpu~=1.13.1"],
+    "gpu": ["onnxruntime-gpu~=1.15.0"],
 }
 
 setup(
