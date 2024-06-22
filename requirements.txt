@@ -1,4 +1,4 @@
 numpy==1.26.3
-onnxruntime==1.13.0
+onnxruntime @ git+https://github.com/microsoft/onnxruntime/@v1.13.1
 opencv-python-headless==4.6.0.66
 pillow==10.2.0
