@@ -13,7 +13,6 @@ long_description = (here / "README.md").read_text(encoding="utf-8")
 
 requires = [
     "numpy~=1.26.3",
-    "onnxruntime~=1.13.0",
     "opencv-python-headless~=4.6.0.66",
     "pillow~=10.2.0",
 ]
